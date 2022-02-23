@@ -111,7 +111,7 @@ class App extends Component {
                     onToggleDone={this.onToggleDone}
                     onToggleImportant={this.onToggleImportant}
                     />
-                <AddItem onAdded={ (text) => this.addItem(text)} />
+                <AddItem onItemAdded={ (text) => this.addItem(text)} />
             </div>
           );
     }
